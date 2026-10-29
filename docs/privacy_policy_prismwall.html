@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - PrismWall</title>
+  <meta name="description"
+    content="Official Privacy Policy and Terms for PrismWall - Premium Aesthetic Wallpapers. Google Play Developer Policy Compliant.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070B14;
+      --surface: #0E1526;
+      --surface-elevated: #141E34;
+      --primary: #00E5FF;
+      --primary-variant: #00B4D8;
+      --secondary: #00F5A0;
+      --text-primary: #FFFFFF;
+      --text-secondary: #94A3B8;
+      --border: rgba(0, 229, 255, 0.15);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --gradient: linear-gradient(135deg, #00E5FF 0%, #00F5A0 100%);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 32px 16px;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      background-image:
+        radial-gradient(circle at 15% 20%, rgba(0, 229, 255, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(0, 245, 160, 0.06) 0%, transparent 40%);
+    }
+
+    .container {
+      width: 100%;
+      max-width: 860px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 44px;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 229, 255, 0.05);
+      backdrop-filter: blur(20px);
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 24px 20px;
+        border-radius: 20px;
+      }
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--card-border);
+      margin-bottom: 32px;
+    }
+
+    .logo-container {
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      background: rgba(0, 229, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 24px rgba(0, 229, 255, 0.35);
+      border: 1.5px solid var(--primary);
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+
+    .logo-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .header-text h1 {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 4px;
+    }
+
+    .badge-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 6px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11.5px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(0, 229, 255, 0.1);
+      color: var(--primary);
+      border: 1px solid rgba(0, 229, 255, 0.25);
+    }
+
+    .badge.green {
+      background: rgba(0, 245, 160, 0.1);
+      color: var(--secondary);
+      border-color: rgba(0, 245, 160, 0.25);
+    }
+
+    .section {
+      background: var(--surface-elevated);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 24px;
+      margin-bottom: 20px;
+      transition: border-color 0.2s ease;
+    }
+
+    .section:hover {
+      border-color: rgba(0, 229, 255, 0.3);
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+
+    .indicator {
+      width: 4px;
+      height: 16px;
+      border-radius: 2px;
+      background: var(--gradient);
+    }
+
+    .section p {
+      font-size: 14.5px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    .section ul {
+      margin: 12px 0 6px 20px;
+      color: var(--text-secondary);
+      font-size: 14.5px;
+    }
+
+    .section ul li {
+      margin-bottom: 8px;
+    }
+
+    .contact-card {
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.08) 0%, rgba(0, 245, 160, 0.04) 100%);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px;
+      margin-top: 32px;
+      text-align: center;
+    }
+
+    .contact-card h3 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+    }
+
+    .contact-card p {
+      color: var(--text-secondary);
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      background: var(--gradient);
+      color: #041E26;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 10px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(0, 229, 255, 0.3);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .contact-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 22px rgba(0, 229, 255, 0.45);
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 28px;
+      font-size: 12.5px;
+      color: #64748B;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo-container">
+        <img src="assets/icons/prismwall_app_icon.png" alt="PrismWall Logo" onerror="this.src='web/icons/Icon-192.png'">
+      </div>
+      <div class="header-text">
+        <h1>PrismWall Privacy Policy</h1>
+        <div class="badge-bar">
+          <span class="badge">Google Play Compliant</span>
+          <span class="badge green">100% Safe & Private</span>
+          <span class="badge">Effective: July 2026</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <div class="indicator"></div>
+        1. Zero Login & Account-Free Architecture
+      </div>
+      <p>
+        <strong>PrismWall</strong> (Package ID: <code>com.prismwall.app</code>) is built on an account-free,
+        privacy-first architecture.
+        The application requires <strong>no account creation, no login, and no sign-up</strong>.
+        We do not collect, process, transmit, or sell any personal identifying information (PII), such as your name,
+        email address, phone number, password, biometric data, or contacts.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <div class="indicator"></div>
+        2. App-Private Isolated Storage Policy (Zero Gallery Access)
+      </div>
+      <p>
+        In strict adherence to Google Play Store User Data & Storage access policies, PrismWall operates with
+        <strong>zero access</strong> to your device's shared photo gallery:
+      </p>
+      <ul>
+        <li>All downloaded wallpapers are saved strictly inside the application's isolated sandbox storage directory
+          (<code>getApplicationDocumentsDirectory()</code>).</li>
+        <li>PrismWall does <strong>NOT</strong> request, declare, or utilize <code>READ_EXTERNAL_STORAGE</code>,
+          <code>WRITE_EXTERNAL_STORAGE</code>, or <code>MANAGE_EXTERNAL_STORAGE</code> permissions.</li>
+        <li>Your public media library, photos, and personal documents remain completely untouched and isolated.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <div class="indicator"></div>
+        3. Third-Party Integrations & Network Transparency
+      </div>
+      <p>
+        PrismWall connects exclusively to one trusted external service:
+      </p>
+      <ul>
+        <li>
+          <strong>Unsplash REST API:</strong> Used to search and retrieve curated, high-resolution aesthetic wallpapers
+          and send mandatory download telemetry per the official Unsplash API Guidelines.
+        </li>
+      </ul>
+      <p>
+        PrismWall does <strong>NOT</strong> integrate Firebase, Google Analytics, Facebook SDK, ad tracking networks, or
+        behavioral telemetry frameworks.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <div class="indicator"></div>
+        4. Storage Management & 100MB Automated Purge Cap
+      </div>
+      <p>
+        To preserve device health and avoid cluttering internal storage:
+      </p>
+      <ul>
+        <li>PrismWall enforces an automatic <strong>100 MB local storage cap</strong> for cached wallpapers using a
+          First-In, First-Out (FIFO) pruning algorithm.</li>
+        <li>Users can perform an immediate, complete wipe of all saved bookmarks, cache, and downloaded files at any
+          time via <em>Profile &gt; Clear Cache & Local Data</em>.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <div class="indicator"></div>
+        5. Children's Online Privacy Protection (COPPA & GDPR-K)
+      </div>
+      <p>
+        PrismWall does not address or target individuals under the age of 13 (or under 16 in the European Economic
+        Area). Because our service collects zero personal information, we do not knowingly solicit or maintain data from
+        children. If you believe a minor has interacted with the application inappropriately, please contact us
+        immediately for assistance.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <div class="indicator"></div>
+        6. Security Standards
+      </div>
+      <p>
+        All communications with the Unsplash API are transmitted using modern TLS 1.3 encryption (HTTPS). Locally stored
+        preferences (theme preference, favorites list) reside exclusively in Android's isolated
+        <code>SharedPreferences</code> sandboxed container.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <div class="indicator"></div>
+        7. Changes to this Privacy Policy
+      </div>
+      <p>
+        We may update this Privacy Policy from time to time to maintain ongoing compliance with Google Play Store
+        policies and legal regulations. Any revisions will be reflected on this page with an updated effective date.
+      </p>
+    </div>
+
+    <div class="contact-card">
+      <h3>Questions or Privacy Inquiries?</h3>
+      <p>If you have any questions, feedback, or compliance inquiries, please feel free to reach out directly to the
+        developer.</p>
+      <a href="mailto:innovexa.solutions01@gmail.com" class="contact-btn">innovexa.solutions01@gmail.com</a>
+    </div>
+
+    <div class="footer">
+      &copy; 2026 PrismWall. All rights reserved. &bull; Package: <code>com.prismwall.app</code>
+    </div>
+  </div>
+</body>
+
+</html>
